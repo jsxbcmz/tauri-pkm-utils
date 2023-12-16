@@ -1,0 +1,4309 @@
+[
+    {
+        "type": "水",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 0
+    },
+    {
+        "type": "一般",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1
+    },
+    {
+        "type": "钢",
+        "name": "沙奈朵",
+        "notice": "被杀",
+        "id": 2
+    },
+    {
+        "type": "钢",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼斗",
+        "id": 3
+    },
+    {
+        "type": "格斗",
+        "name": "暴鲤龙",
+        "success": true,
+        "notice": "上露",
+        "id": 4
+    },
+    {
+        "type": "钢",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 5
+    },
+    {
+        "type": "冰",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 6
+    },
+    {
+        "type": "恶",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "上露",
+        "id": 7
+    },
+    {
+        "type": "钢",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 8
+    },
+    {
+        "type": "格斗",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "上露",
+        "id": 9
+    },
+    {
+        "type": "冰",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "火",
+        "id": 10
+    },
+    {
+        "type": "草",
+        "name": "斗笠菇",
+        "success": true,
+        "notice": "火，2个秘制",
+        "id": 11
+    },
+    {
+        "type": "火",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "上露",
+        "id": 12
+    },
+    {
+        "type": "冰",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 13
+    },
+    {
+        "type": "草",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "火",
+        "id": 14
+    },
+    {
+        "type": "一般",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 15
+    },
+    {
+        "type": "地面",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "露",
+        "id": 16
+    },
+    {
+        "type": "恶",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "大逼兜，1个辣味",
+        "id": 17
+    },
+    {
+        "type": "一般",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "大逼兜，很顺，没请buff",
+        "id": 18
+    },
+    {
+        "type": "岩石",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "上露。不太清type",
+        "id": 19
+    },
+    {
+        "type": "地面",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "上露，求雨有加成",
+        "id": 20
+    },
+    {
+        "type": "冰",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "大逼兜，顺，",
+        "id": 21
+    },
+    {
+        "type": "恶",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 22
+    },
+    {
+        "type": "地面",
+        "name": "麻花犬",
+        "success": true,
+        "notice": "上露,",
+        "id": 23
+    },
+    {
+        "type": "草",
+        "name": "斗笠菇",
+        "success": true,
+        "id": 24
+    },
+    {
+        "type": "冰",
+        "name": "河马兽",
+        "success": true,
+        "notice": "大逼兜，有睡眠，等钛晶",
+        "id": 25
+    },
+    {
+        "type": "草",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "火",
+        "id": 26
+    },
+    {
+        "type": "格斗",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "上露",
+        "id": 27
+    },
+    {
+        "type": "火",
+        "name": "姆克鹰",
+        "notice": "不好",
+        "id": 28
+    },
+    {
+        "type": "恶",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜，顺，膏药",
+        "id": 29
+    },
+    {
+        "type": "火",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "露，求雨后差点秒",
+        "id": 30
+    },
+    {
+        "type": "钢",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜，少被睡，还行",
+        "id": 31
+    },
+    {
+        "type": "地面",
+        "name": "沙奈朵",
+        "notice": "露，不好打",
+        "id": 32
+    },
+    {
+        "type": "虫",
+        "name": "奇麒麟",
+        "success": true,
+        "notice": "火，没清type，好打",
+        "id": 33
+    },
+    {
+        "type": "恶",
+        "name": "超坏星",
+        "success": true,
+        "notice": "大逼兜，还行",
+        "id": 34
+    },
+    {
+        "type": "水",
+        "name": "自爆磁怪",
+        "success": true,
+        "notice": "大逼兜，略曲折",
+        "id": 35
+    },
+    {
+        "type": "恶",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 36
+    },
+    {
+        "type": "恶",
+        "name": "快龙",
+        "success": true,
+        "notice": "大逼兜，一个秘制+膏药",
+        "id": 37
+    },
+    {
+        "type": "岩石",
+        "name": "幸福蛋",
+        "success": true,
+        "notice": "露，1个秘制",
+        "id": 38
+    },
+    {
+        "type": "草",
+        "name": "斗笠菇",
+        "success": true,
+        "notice": "火，1个辣味",
+        "id": 40
+    },
+    {
+        "type": "岩石",
+        "name": "幸福蛋",
+        "success": true,
+        "notice": "露，3个秘制",
+        "id": 41
+    },
+    {
+        "type": "钢",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "大逼兜，一个秘制",
+        "id": 42
+    },
+    {
+        "type": "岩石",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "露，求雨。一个秘制",
+        "id": 43
+    },
+    {
+        "type": "钢",
+        "name": "月亮伊布",
+        "notice": "不好",
+        "id": 44
+    },
+    {
+        "type": "一般",
+        "name": "耿鬼",
+        "id": 45
+    },
+    {
+        "type": "水",
+        "name": "奇麒麟",
+        "success": true,
+        "notice": "密勒顿，一个秘制",
+        "id": 1671341610620
+    },
+    {
+        "type": "电",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "鲨，险胜",
+        "id": 1671342197279
+    },
+    {
+        "type": "格斗",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "带把",
+        "id": 1671342509729
+    },
+    {
+        "type": "恶",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1671342850695
+    },
+    {
+        "type": "钢",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "大逼兜，一个秘制",
+        "id": 1671343236523
+    },
+    {
+        "type": "幽灵",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "赛富豪，2个秘制",
+        "id": 1671343807936
+    },
+    {
+        "type": "岩石",
+        "name": "太阳伊布",
+        "success": true,
+        "notice": "巨锻匠，险胜",
+        "id": 1671344375223
+    },
+    {
+        "type": "恶",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "大逼兜，电气立场",
+        "id": 1671344884754
+    },
+    {
+        "type": "妖精",
+        "name": "月亮伊布",
+        "success": true,
+        "notice": "毒",
+        "id": 1671345848724
+    },
+    {
+        "type": "火",
+        "name": "耿鬼",
+        "notice": "不打",
+        "id": 1671346134171
+    },
+    {
+        "type": "恶",
+        "name": "冰伊布",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1671346447705
+    },
+    {
+        "type": "幽灵",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "赛富翁",
+        "id": 1671346916866
+    },
+    {
+        "type": "格斗",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "露，一个秘制",
+        "id": 1671347512528
+    },
+    {
+        "type": "电",
+        "name": "土王",
+        "notice": "不打",
+        "id": 1671348396475
+    },
+    {
+        "type": "火",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "露",
+        "id": 1671348749804
+    },
+    {
+        "type": "妖精",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "毒",
+        "id": 1671349059704
+    },
+    {
+        "type": "超能力",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "赛富翁",
+        "id": 1671349614323
+    },
+    {
+        "type": "毒",
+        "name": "冰伊布",
+        "notice": "不打",
+        "id": 1671349820042
+    },
+    {
+        "type": "火",
+        "name": "下石鸟",
+        "notice": "不好打",
+        "id": 1671350234695
+    },
+    {
+        "type": "草",
+        "name": "煤炭龟",
+        "success": true,
+        "notice": "毒",
+        "id": 1671350718572
+    },
+    {
+        "type": "钢",
+        "name": "超坏星",
+        "success": true,
+        "notice": "大逼兜，膏药",
+        "id": 1671351378942
+    },
+    {
+        "type": "毒",
+        "name": "姆克鹰",
+        "notice": "不打",
+        "id": 1671351582651
+    },
+    {
+        "type": "一般",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1671352122680
+    },
+    {
+        "type": "格斗",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "铁武者",
+        "id": 1671352679640
+    },
+    {
+        "type": "恶",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜，一个秘制",
+        "id": 1671353192927
+    },
+    {
+        "type": "飞行",
+        "name": "太阳伊布",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1671371504010
+    },
+    {
+        "type": "岩石",
+        "name": "晶光花",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1671372053845
+    },
+    {
+        "type": "超能力",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "赛富豪",
+        "id": 1671372514627
+    },
+    {
+        "type": "一般",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "大逼兜，一个秘制",
+        "id": 1671373039018
+    },
+    {
+        "type": "钢",
+        "name": "弃世猴",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1671459378401
+    },
+    {
+        "type": "恶",
+        "name": "叶伊布",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1671459700333
+    },
+    {
+        "type": "一般",
+        "name": "雷伊布",
+        "success": true,
+        "notice": "大逼兜，一个秘制",
+        "id": 1671460005717
+    },
+    {
+        "type": "水",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1671460395981
+    },
+    {
+        "type": "草",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "毒",
+        "id": 1671461108478
+    },
+    {
+        "type": "恶",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1671462947328
+    },
+    {
+        "type": "幽灵",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "赛富豪",
+        "id": 1671880993897
+    },
+    {
+        "type": "虫",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "火，秘术斗篷，一个秘制",
+        "id": 1671882573266
+    },
+    {
+        "type": "草",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "毒蛾，膏药",
+        "id": 1671883202711
+    },
+    {
+        "type": "妖精",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "毒蛾",
+        "id": 1671884170722
+    },
+    {
+        "type": "水",
+        "name": "弃世猴",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1671884886793
+    },
+    {
+        "type": "龙",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "露",
+        "id": 1671885323009
+    },
+    {
+        "type": "水",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1671972922846
+    },
+    {
+        "type": "飞行",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1672115815886
+    },
+    {
+        "type": "岩石",
+        "name": "土王",
+        "success": true,
+        "notice": "大逼兜，开局电气立场",
+        "id": 1672116249829
+    },
+    {
+        "type": "水",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "密勒顿，一个秘制",
+        "id": 1672116723810
+    },
+    {
+        "type": "地面",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "露，2个秘制",
+        "id": 1672141679813
+    },
+    {
+        "type": "虫",
+        "name": "太阳伊布",
+        "notice": "不好打",
+        "id": 1672199479082
+    },
+    {
+        "type": "恶",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1672200104994
+    },
+    {
+        "type": "地面",
+        "name": "涂标客",
+        "notice": "不打",
+        "id": 1672200301911
+    },
+    {
+        "type": "飞行",
+        "name": "太阳伊布",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1672200769380
+    },
+    {
+        "type": "妖精",
+        "name": "肯泰罗-水澜种",
+        "notice": "不打",
+        "id": 1672200966472
+    },
+    {
+        "type": "一般",
+        "name": "钢炮臂虾",
+        "notice": "不打",
+        "id": 1672201521659
+    },
+    {
+        "type": "超能力",
+        "name": "暴飞龙",
+        "notice": "不打",
+        "id": 1672202828917
+    },
+    {
+        "type": "岩石",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1672203275579
+    },
+    {
+        "type": "超能力",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "赛富翁，一个秘制",
+        "id": 1672636604933
+    },
+    {
+        "type": "龙",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "露",
+        "id": 1672637021301
+    },
+    {
+        "type": "一般",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1672637506794
+    },
+    {
+        "type": "虫",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1672638313848
+    },
+    {
+        "type": "一般",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "大逼兜，开局电气",
+        "id": 1672638705898
+    },
+    {
+        "type": "飞行",
+        "name": "斗笠菇",
+        "success": true,
+        "notice": "密勒顿，一个膏药",
+        "id": 1672639059328
+    },
+    {
+        "type": "钢",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "火 ",
+        "id": 1677859320330
+    },
+    {
+        "type": "地面",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "兰螳花，一个膏药",
+        "id": 1677859749648
+    },
+    {
+        "type": "龙",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "露",
+        "id": 1677860736918
+    },
+    {
+        "type": "冰",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1677861065183
+    },
+    {
+        "type": "格斗",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "露 一个膏药",
+        "id": 1677862083168
+    },
+    {
+        "type": "妖精",
+        "name": "煤炭龟",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677863351518
+    },
+    {
+        "type": "钢",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1677921690863
+    },
+    {
+        "type": "龙",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "露",
+        "id": 1677924517062
+    },
+    {
+        "type": "格斗",
+        "name": "大嘴鸥",
+        "success": true,
+        "notice": "沙奈朵",
+        "id": 1677925062745
+    },
+    {
+        "type": "冰",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "大锤，一个膏药",
+        "id": 1677925650635
+    },
+    {
+        "type": "飞行",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1677926342788
+    },
+    {
+        "type": "格斗",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "沙奈朵 一个秘制",
+        "id": 1677926673023
+    },
+    {
+        "type": "格斗",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1677927650195
+    },
+    {
+        "type": "超能力",
+        "name": "巨锻匠",
+        "success": true,
+        "notice": "螳螂 一个秘制",
+        "id": 1677928124032
+    },
+    {
+        "type": "冰",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1677930477931
+    },
+    {
+        "type": "岩石",
+        "name": "火伊布",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1677930984546
+    },
+    {
+        "type": "幽灵",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "赛富豪",
+        "id": 1677931682955
+    },
+    {
+        "type": "毒",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "呆呆兽",
+        "id": 1677932956123
+    },
+    {
+        "type": "地面",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "兰螳花 3个秘制",
+        "id": 1677933357533
+    },
+    {
+        "type": "水",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1677933658710
+    },
+    {
+        "type": "格斗",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "呆呆兽 一个秘制",
+        "id": 1677934129591
+    },
+    {
+        "type": "超能力",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "赛富翁 一个秘制",
+        "id": 1677934769834
+    },
+    {
+        "type": "冰",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677935790213
+    },
+    {
+        "type": "草",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677938978811
+    },
+    {
+        "type": "火",
+        "name": "獒教父",
+        "success": true,
+        "notice": "露 ",
+        "id": 1677939681138
+    },
+    {
+        "type": "草",
+        "name": "獒教父",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677940357594
+    },
+    {
+        "type": "妖精",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677941477767
+    },
+    {
+        "type": "水",
+        "name": "月亮伊布",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1677942002191
+    },
+    {
+        "type": "飞行",
+        "name": "獒教父",
+        "success": true,
+        "notice": "电肚蛙",
+        "id": 1677942565103
+    },
+    {
+        "type": "水",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "电肚蛙 一个秘制",
+        "id": 1677942976684
+    },
+    {
+        "type": "飞行",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "浩大鲸",
+        "id": 1677945418735
+    },
+    {
+        "type": "虫",
+        "name": "赫拉克罗斯",
+        "success": true,
+        "notice": "火",
+        "id": 1677945959686
+    },
+    {
+        "type": "龙",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "铁武者",
+        "id": 1677946298179
+    },
+    {
+        "type": "龙",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "露",
+        "id": 1677946692207
+    },
+    {
+        "type": "草",
+        "name": "耿鬼",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677947510369
+    },
+    {
+        "type": "地面",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1677947855110
+    },
+    {
+        "type": "电",
+        "name": "自爆磁怪",
+        "success": true,
+        "notice": "鲨",
+        "id": 1677949716287
+    },
+    {
+        "type": "冰",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1677950163054
+    },
+    {
+        "type": "钢",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "大逼兜 一个膏药",
+        "id": 1677950964191
+    },
+    {
+        "type": "草",
+        "name": "耿鬼",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677951332443
+    },
+    {
+        "type": "草",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "火毒蛾 一个秘制",
+        "id": 1677952126680
+    },
+    {
+        "type": "草",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677952543672
+    },
+    {
+        "type": "草",
+        "name": "耿鬼",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677953279791
+    },
+    {
+        "type": "龙",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "露",
+        "id": 1677953695132
+    },
+    {
+        "type": "钢",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "鲨",
+        "id": 1677954694323
+    },
+    {
+        "type": "岩石",
+        "name": "多龙巴鲁托",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1677955097889
+    },
+    {
+        "type": "火",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "鲨",
+        "id": 1677955718067
+    },
+    {
+        "type": "龙",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1677956018043
+    },
+    {
+        "type": "飞行",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "电肚蛙 一个膏药",
+        "id": 1677956493675
+    },
+    {
+        "type": "格斗",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "仙子 3减1加",
+        "id": 1677996391959
+    },
+    {
+        "type": "超能力",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "愤怒猴 一个秘制",
+        "id": 1677996809465
+    },
+    {
+        "type": "冰",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "赛富豪",
+        "id": 1677997496602
+    },
+    {
+        "type": "草",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1677998544131
+    },
+    {
+        "type": "格斗",
+        "name": "晶光花",
+        "success": true,
+        "notice": "呆呆兽 一个秘制 一个膏药",
+        "id": 1677999281888
+    },
+    {
+        "type": "冰",
+        "name": "钢铠鸦",
+        "success": true,
+        "notice": "火 一个秘制",
+        "id": 1677999808064
+    },
+    {
+        "type": "超能力",
+        "name": "雷伊布",
+        "success": true,
+        "notice": "朴刀 一个秘制",
+        "id": 1678000095989
+    },
+    {
+        "type": "岩石",
+        "name": "晶光花",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1678000774346
+    },
+    {
+        "type": "冰",
+        "name": "水伊布",
+        "success": true,
+        "notice": "大逼兜一个秘制",
+        "id": 1678001633409
+    },
+    {
+        "type": "一般",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1678002156103
+    },
+    {
+        "type": "钢",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "火",
+        "id": 1678002786262
+    },
+    {
+        "type": "妖精",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "火毒蛾 ",
+        "id": 1678003202656
+    },
+    {
+        "type": "岩石",
+        "name": "太阳伊布",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1678011623901
+    },
+    {
+        "type": "岩石",
+        "name": "水伊布",
+        "success": true,
+        "notice": "大逼兜 1个秘制",
+        "id": 1678012240132
+    },
+    {
+        "type": "恶",
+        "name": "獒教父",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1678012595430
+    },
+    {
+        "type": "毒",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "鲨",
+        "id": 1678013039166
+    },
+    {
+        "type": "火",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "露",
+        "id": 1678013739824
+    },
+    {
+        "type": "地面",
+        "name": "下石鸟",
+        "success": true,
+        "notice": "露",
+        "id": 1678017481773
+    },
+    {
+        "type": "一般",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1678018064470
+    },
+    {
+        "type": "飞行",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "鲸鱼 一个秘制",
+        "id": 1678018418686
+    },
+    {
+        "type": "幽灵",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "仆刀",
+        "id": 1678019361533
+    },
+    {
+        "type": "飞行",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "电肚蛙 一个秘制",
+        "id": 1678020295633
+    },
+    {
+        "type": "龙",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "鲸",
+        "id": 1678021274297
+    },
+    {
+        "type": "水",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "电肚蛙",
+        "id": 1678022396076
+    },
+    {
+        "type": "岩石",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "大锤",
+        "id": 1678507272334
+    },
+    {
+        "type": "岩石",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "兰螳花 2个秘制",
+        "id": 1678507708901
+    },
+    {
+        "type": "妖精",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "火毒蛾 一个秘制",
+        "id": 1678508950686
+    },
+    {
+        "type": "虫",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "火  一个秘制",
+        "id": 1678509369344
+    },
+    {
+        "type": "火",
+        "name": "涂标客",
+        "success": true,
+        "notice": "鲨",
+        "id": 1678510273179
+    },
+    {
+        "type": "飞行",
+        "name": "下石鸟",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1678510730239
+    },
+    {
+        "type": "草",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1678511837470
+    },
+    {
+        "type": "格斗",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "呆呆兽",
+        "id": 1678512364595
+    },
+    {
+        "type": "草",
+        "name": "赫拉克罗斯",
+        "success": true,
+        "notice": "火",
+        "id": 1678543497828
+    },
+    {
+        "type": "幽灵",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "猴",
+        "id": 1678545211787
+    },
+    {
+        "type": "水",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "兰螳花 2个秘制",
+        "id": 1678545783334
+    },
+    {
+        "type": "妖精",
+        "name": "麻花犬",
+        "success": true,
+        "notice": "火毒蛾 一个膏药",
+        "id": 1678546218419
+    },
+    {
+        "type": "龙",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "露",
+        "id": 1678546667844
+    },
+    {
+        "type": "一般",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1679150328093
+    },
+    {
+        "type": "飞行",
+        "name": "鬃岩狼人-黄昏的样子",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1679150768126
+    },
+    {
+        "type": "地面",
+        "name": "火伊布",
+        "success": true,
+        "notice": "露 求雨",
+        "id": 1679151563675
+    },
+    {
+        "type": "钢",
+        "name": "獒教父",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1680175318107
+    },
+    {
+        "type": "龙",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "露",
+        "id": 1680175763289
+    },
+    {
+        "type": "岩石",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680176552266
+    },
+    {
+        "type": "地面",
+        "name": "涂标客",
+        "success": true,
+        "notice": "鲸",
+        "id": 1680180952723
+    },
+    {
+        "type": "地面",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "兰螳花 ",
+        "id": 1680183171883
+    },
+    {
+        "type": "钢",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "火 一个秘制",
+        "id": 1680184303219
+    },
+    {
+        "type": "龙",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "铁武者",
+        "id": 1680184804250
+    },
+    {
+        "type": "草",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "火毒蛾 一个秘制",
+        "id": 1680189399452
+    },
+    {
+        "type": "草",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1680190832477
+    },
+    {
+        "type": "草",
+        "name": "奇麒麟",
+        "success": true,
+        "notice": "火 一个秘制",
+        "id": 1680191203309
+    },
+    {
+        "type": "龙",
+        "name": "烈咬陆鲨",
+        "success": true,
+        "notice": "露 一个膏药",
+        "id": 1680329300758
+    },
+    {
+        "type": "水",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1680329610697
+    },
+    {
+        "type": "地面",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "鲸",
+        "id": 1680330040507
+    },
+    {
+        "type": "地面",
+        "name": "巨锻匠",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1680330482627
+    },
+    {
+        "type": "水",
+        "name": "晶光花",
+        "success": true,
+        "notice": "蛙",
+        "id": 1680330949701
+    },
+    {
+        "type": "格斗",
+        "name": "火伊布",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1680331398292
+    },
+    {
+        "type": "火",
+        "name": "太阳伊布",
+        "success": true,
+        "notice": "露",
+        "id": 1680331752298
+    },
+    {
+        "type": "岩石",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680332069702
+    },
+    {
+        "type": "岩石",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1680333851712
+    },
+    {
+        "type": "水",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1680334181021
+    },
+    {
+        "type": "水",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1680335088748
+    },
+    {
+        "type": "恶",
+        "name": "暴鲤龙",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1680335439419
+    },
+    {
+        "type": "恶",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "螳螂",
+        "id": 1680335865447
+    },
+    {
+        "type": "水",
+        "name": "奇麒麟",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1680336364761
+    },
+    {
+        "type": "钢",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680338237065
+    },
+    {
+        "type": "龙",
+        "name": "暴鲤龙",
+        "success": true,
+        "notice": "露 一个膏药",
+        "id": 1680338538980
+    },
+    {
+        "type": "一般",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680338860558
+    },
+    {
+        "type": "火",
+        "name": "麻花犬",
+        "success": true,
+        "notice": "露",
+        "id": 1680339185218
+    },
+    {
+        "type": "水",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "电肚蛙",
+        "id": 1680339811160
+    },
+    {
+        "type": "飞行",
+        "name": "叶伊布",
+        "success": true,
+        "notice": "密勒顿 ",
+        "id": 1680358108237
+    },
+    {
+        "type": "冰",
+        "name": "烈咬陆鲨",
+        "success": true,
+        "notice": "猴",
+        "id": 1680358633285
+    },
+    {
+        "type": "妖精",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "毒蛙 2个秘制",
+        "id": 1680359984371
+    },
+    {
+        "type": "龙",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "鲸",
+        "id": 1680360336103
+    },
+    {
+        "type": "一般",
+        "name": "冰伊布",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1680360687190
+    },
+    {
+        "type": "格斗",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "呆壳",
+        "id": 1680361450962
+    },
+    {
+        "type": "妖精",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "大锤",
+        "id": 1680362137921
+    },
+    {
+        "type": "岩石",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680362497981
+    },
+    {
+        "type": "虫",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "猴 一个秘制",
+        "id": 1680363005104
+    },
+    {
+        "type": "地面",
+        "name": "超坏星",
+        "success": true,
+        "notice": "鲸 一个秘制",
+        "id": 1680364100382
+    },
+    {
+        "type": "钢",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680364463551
+    },
+    {
+        "type": "格斗",
+        "name": "幸福蛋",
+        "success": true,
+        "notice": "露 2个秘制",
+        "id": 1680443290625
+    },
+    {
+        "type": "虫",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "火毒蛾 ",
+        "id": 1680443870654
+    },
+    {
+        "type": "妖精",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "毒蛙",
+        "id": 1680508952840
+    },
+    {
+        "type": "格斗",
+        "name": "獒教父",
+        "success": true,
+        "notice": "露",
+        "id": 1680509341141
+    },
+    {
+        "type": "一般",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680510741371
+    },
+    {
+        "type": "虫",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "火",
+        "id": 1680511106462
+    },
+    {
+        "type": "龙",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "鲸",
+        "id": 1680511842352
+    },
+    {
+        "type": "幽灵",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "猴 一个秘制",
+        "id": 1680512471402
+    },
+    {
+        "type": "岩石",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜 一个膏药",
+        "id": 1680512805675
+    },
+    {
+        "type": "恶",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "螳螂",
+        "id": 1680513376125
+    },
+    {
+        "type": "电",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "鲨 一个膏药",
+        "id": 1680515131687
+    },
+    {
+        "type": "水",
+        "name": "鬃岩狼人-黄昏的样子",
+        "success": true,
+        "notice": "兰螳花 ",
+        "id": 1680515645764
+    },
+    {
+        "type": "草",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "毒蛙 一个膏药",
+        "id": 1680516238608
+    },
+    {
+        "type": "一般",
+        "name": "獒教父",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680516609532
+    },
+    {
+        "type": "妖精",
+        "name": "涂标客",
+        "success": true,
+        "notice": "毒蛙",
+        "id": 1680532664051
+    },
+    {
+        "type": "冰",
+        "name": "钢铠鸦",
+        "success": true,
+        "notice": "火 ",
+        "id": 1680533294624
+    },
+    {
+        "type": "地面",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "兰螳花 一个秘制 一个膏药",
+        "id": 1680533950061
+    },
+    {
+        "type": "飞行",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "电蛙",
+        "id": 1680839512708
+    },
+    {
+        "type": "格斗",
+        "name": "晶光花",
+        "success": true,
+        "notice": "呆呆兽",
+        "id": 1680840619958
+    },
+    {
+        "type": "草",
+        "name": "大电海燕",
+        "success": true,
+        "notice": "鲸 一个秘制",
+        "id": 1680841371894
+    },
+    {
+        "type": "飞行",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "密勒顿 ",
+        "id": 1680872217038
+    },
+    {
+        "type": "龙",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "铁武者 一个秘制",
+        "id": 1680872898654
+    },
+    {
+        "type": "草",
+        "name": "火伊布",
+        "success": true,
+        "notice": "火 ",
+        "id": 1680873167046
+    },
+    {
+        "type": "龙",
+        "name": "晶光花",
+        "success": true,
+        "notice": "故勒顿",
+        "id": 1680874106087
+    },
+    {
+        "type": "草",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1680874553182
+    },
+    {
+        "type": "岩石",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "露",
+        "id": 1680874844923
+    },
+    {
+        "type": "电",
+        "name": "鬃岩狼人-黄昏的样子",
+        "success": true,
+        "notice": "鲨",
+        "id": 1680875234837
+    },
+    {
+        "type": "虫",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "猴 一个秘制",
+        "id": 1680875800809
+    },
+    {
+        "type": "火",
+        "name": "冰伊布",
+        "success": true,
+        "notice": "露",
+        "id": 1680876101403
+    },
+    {
+        "type": "龙",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "鲸 ",
+        "id": 1680876566596
+    },
+    {
+        "type": "虫",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "猴 一个秘制 一个膏药",
+        "id": 1680876980048
+    },
+    {
+        "type": "幽灵",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "猴 一个秘制",
+        "id": 1680877455656
+    },
+    {
+        "type": "冰",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "大锤 ",
+        "id": 1680877762330
+    },
+    {
+        "type": "幽灵",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1680878098123
+    },
+    {
+        "type": "幽灵",
+        "name": "土王",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1680878562331
+    },
+    {
+        "type": "岩石",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1680878830800
+    },
+    {
+        "type": "幽灵",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1680879202483
+    },
+    {
+        "type": "超能力",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "猴 一个膏药",
+        "id": 1680879601356
+    },
+    {
+        "type": "冰",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "大锤 一个秘制",
+        "id": 1680879995235
+    },
+    {
+        "type": "岩石",
+        "name": "晶光花",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1680880741442
+    },
+    {
+        "type": "水",
+        "name": "巨锻匠",
+        "success": true,
+        "notice": "兰螳花 一个膏药",
+        "id": 1680881088279
+    },
+    {
+        "type": "火",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1680881468900
+    },
+    {
+        "type": "一般",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1680881858552
+    },
+    {
+        "type": "妖精",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "毒蛙 4个秘制",
+        "id": 1680882582684
+    },
+    {
+        "type": "恶",
+        "name": "超坏星",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680882944309
+    },
+    {
+        "type": "火",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1680883282729
+    },
+    {
+        "type": "草",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "火  ",
+        "id": 1680883653791
+    },
+    {
+        "type": "岩石",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1680884272956
+    },
+    {
+        "type": "岩石",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1680884734346
+    },
+    {
+        "type": "飞行",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "电蛙",
+        "id": 1680885209182
+    },
+    {
+        "type": "岩石",
+        "name": "巨锻匠",
+        "success": true,
+        "notice": "兰螳花 一个秘制",
+        "id": 1680885976390
+    },
+    {
+        "type": "龙",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "露",
+        "id": 1680928285642
+    },
+    {
+        "type": "幽灵",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "猴  ",
+        "id": 1680928660758
+    },
+    {
+        "type": "一般",
+        "name": "多龙巴鲁托",
+        "success": true,
+        "notice": "大逼兜 2个秘制",
+        "id": 1680930181628
+    },
+    {
+        "type": "火",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1680930490032
+    },
+    {
+        "type": "飞行",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1680931122265
+    },
+    {
+        "type": "水",
+        "name": "超坏星",
+        "success": true,
+        "notice": "电蛙 2个秘制",
+        "id": 1680931609477
+    },
+    {
+        "type": "岩石",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "大锤 ",
+        "id": 1680931963269
+    },
+    {
+        "type": "草",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "毒蛙 一个秘制",
+        "id": 1680932429202
+    },
+    {
+        "type": "冰",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1680932950702
+    },
+    {
+        "type": "草",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "毒蛾  ",
+        "id": 1680957388369
+    },
+    {
+        "type": "岩石",
+        "name": "雷伊布",
+        "success": true,
+        "notice": "大逼兜  一个秘制",
+        "id": 1680957715282
+    },
+    {
+        "type": "飞行",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1680959106838
+    },
+    {
+        "type": "妖精",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "毒蛾  2个秘制",
+        "id": 1680959503945
+    },
+    {
+        "type": "冰",
+        "name": "自爆磁怪",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1680960416506
+    },
+    {
+        "type": "电",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "鲨",
+        "id": 1680960960037
+    },
+    {
+        "type": "幽灵",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "赛富豪 ",
+        "id": 1680964384863
+    },
+    {
+        "type": "水",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1680964788266
+    },
+    {
+        "type": "妖精",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "毒蛾 ",
+        "id": 1680965113016
+    },
+    {
+        "type": "岩石",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "大锤 ",
+        "id": 1680965383119
+    },
+    {
+        "type": "龙",
+        "name": "獒教父",
+        "success": true,
+        "notice": "露 ",
+        "id": 1680965833535
+    },
+    {
+        "type": "火",
+        "name": "奇麒麟",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1681040863031
+    },
+    {
+        "type": "超能力",
+        "name": "快龙",
+        "success": true,
+        "notice": "猴 一个秘制",
+        "id": 1681041716702
+    },
+    {
+        "type": "飞行",
+        "name": "月亮伊布",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1681042236709
+    },
+    {
+        "type": "恶",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "露 ",
+        "id": 1681044150175
+    },
+    {
+        "type": "水",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1681044872834
+    },
+    {
+        "type": "妖精",
+        "name": "涂标客",
+        "success": true,
+        "notice": "毒蛙 ",
+        "id": 1681045569725
+    },
+    {
+        "type": "恶",
+        "name": "大嘴鸥",
+        "success": true,
+        "notice": "露  一个秘制",
+        "id": 1681045944549
+    },
+    {
+        "type": "草",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "毒蛙 一个秘制",
+        "id": 1681046345403
+    },
+    {
+        "type": "飞行",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "鲸",
+        "id": 1681046773330
+    },
+    {
+        "type": "火",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "露 一个秘制",
+        "id": 1681047067261
+    },
+    {
+        "type": "龙",
+        "name": "超坏星",
+        "success": true,
+        "notice": "鲸 一个秘制",
+        "id": 1681047503416
+    },
+    {
+        "type": "超能力",
+        "name": "晶光花",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1681047961963
+    },
+    {
+        "type": "草",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1681048483394
+    },
+    {
+        "type": "一般",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1681114180736
+    },
+    {
+        "type": "飞行",
+        "name": "叶伊布",
+        "success": true,
+        "notice": "电蛙 一个膏药",
+        "id": 1681114536071
+    },
+    {
+        "type": "冰",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "火 ",
+        "id": 1681114813922
+    },
+    {
+        "type": "格斗",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "铁武者 2个秘制 一个膏药",
+        "id": 1681115297672
+    },
+    {
+        "type": "超能力",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "仆刀 ",
+        "id": 1681116569203
+    },
+    {
+        "type": "冰",
+        "name": "多龙巴鲁托",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1681117367395
+    },
+    {
+        "type": "恶",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "露 ",
+        "id": 1681117662719
+    },
+    {
+        "type": "地面",
+        "name": "水伊布",
+        "success": true,
+        "notice": "兰螳花 ",
+        "id": 1681118826529
+    },
+    {
+        "type": "毒",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "呆呆兽 ",
+        "id": 1681119170461
+    },
+    {
+        "type": "冰",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "火 一个秘制",
+        "id": 1681223440909
+    },
+    {
+        "type": "格斗",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "露 ",
+        "id": 1681223782283
+    },
+    {
+        "type": "幽灵",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "猴 3个秘制",
+        "id": 1681224164460
+    },
+    {
+        "type": "虫",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1681224985917
+    },
+    {
+        "type": "妖精",
+        "name": "晶光花",
+        "success": true,
+        "notice": "毒蛙 ",
+        "id": 1681225377234
+    },
+    {
+        "type": "超能力",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "螳螂",
+        "id": 1681225948487
+    },
+    {
+        "type": "幽灵",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1681387179164
+    },
+    {
+        "type": "钢",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1681387680510
+    },
+    {
+        "type": "岩石",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1681388638568
+    },
+    {
+        "type": "水",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "电蛙 一个秘制",
+        "id": 1681388973186
+    },
+    {
+        "type": "飞行",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1681390374273
+    },
+    {
+        "type": "超能力",
+        "name": "涂标客",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1681393439605
+    },
+    {
+        "type": "毒",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "鲨 ",
+        "id": 1681394357488
+    },
+    {
+        "type": "虫",
+        "name": "钢铠鸦",
+        "success": true,
+        "notice": "火 ",
+        "id": 1681394806546
+    },
+    {
+        "type": "超能力",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "猴",
+        "id": 1681395308722
+    },
+    {
+        "type": "冰",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "火 ",
+        "id": 1681395731948
+    },
+    {
+        "type": "格斗",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "呆呆兽",
+        "id": 1681396579532
+    },
+    {
+        "type": "草",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "毒蛾 ",
+        "id": 1681397350327
+    },
+    {
+        "type": "水",
+        "name": "獒教父",
+        "success": true,
+        "notice": "电蛙 一个秘制",
+        "id": 1681397756145
+    },
+    {
+        "type": "水",
+        "name": "月亮伊布",
+        "success": true,
+        "notice": "电蛙",
+        "id": 1681398499930
+    },
+    {
+        "type": "钢",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1681398871815
+    },
+    {
+        "type": "钢",
+        "name": "冰伊布",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1681399231760
+    },
+    {
+        "type": "超能力",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "猴 一个膏药",
+        "id": 1681399566444
+    },
+    {
+        "type": "水",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1681400730762
+    },
+    {
+        "type": "一般",
+        "name": "冰伊布",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1682078703741
+    },
+    {
+        "type": "虫",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "火 ",
+        "id": 1682081425773
+    },
+    {
+        "type": "龙",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "鲸 2个秘制",
+        "id": 1682082432828
+    },
+    {
+        "type": "冰",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1682231858391
+    },
+    {
+        "type": "超能力",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "猴",
+        "id": 1682232443985
+    },
+    {
+        "type": "恶",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1682232710674
+    },
+    {
+        "type": "格斗",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "黑马",
+        "id": 1685688762261
+    },
+    {
+        "type": "钢",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "土地云",
+        "id": 1685690530616
+    },
+    {
+        "type": "水",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "电蛙",
+        "id": 1685691041164
+    },
+    {
+        "type": "恶",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "露",
+        "id": 1685691356009
+    },
+    {
+        "type": "冰",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "故勒顿 梦话 一个膏药",
+        "id": 1685691912842
+    },
+    {
+        "type": "钢",
+        "name": "斗笠菇",
+        "success": true,
+        "notice": "火 一个秘制",
+        "id": 1685692464600
+    },
+    {
+        "type": "冰",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜 一个膏药",
+        "id": 1685706062231
+    },
+    {
+        "type": "虫",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "火毒蛾",
+        "id": 1685706445031
+    },
+    {
+        "type": "钢",
+        "name": "快龙",
+        "success": true,
+        "notice": "猴",
+        "id": 1685707147599
+    },
+    {
+        "type": "幽灵",
+        "name": "大嘴鸥",
+        "success": true,
+        "notice": "仆刀 一个秘制",
+        "id": 1685707728634
+    },
+    {
+        "type": "格斗",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "黑马 ",
+        "id": 1685708130026
+    },
+    {
+        "type": "毒",
+        "name": "鬃岩狼人-黄昏的样子",
+        "success": true,
+        "notice": "月月熊 ",
+        "id": 1685708336533
+    },
+    {
+        "type": "水",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1685709006471
+    },
+    {
+        "type": "飞行",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1685709518602
+    },
+    {
+        "type": "岩石",
+        "name": "叶伊布",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1685710428243
+    },
+    {
+        "type": "钢",
+        "name": "赫拉克罗斯",
+        "success": true,
+        "notice": "火鳄",
+        "id": 1685712059160
+    },
+    {
+        "type": "恶",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1685713264200
+    },
+    {
+        "type": "龙",
+        "name": "快龙",
+        "success": true,
+        "notice": "玛雅 一个秘制",
+        "id": 1685715300904
+    },
+    {
+        "type": "幽灵",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "猴 4个秘制",
+        "id": 1685768176540
+    },
+    {
+        "type": "飞行",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1685768637460
+    },
+    {
+        "type": "电",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "玛机 一个秘制",
+        "id": 1685769071455
+    },
+    {
+        "type": "电",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "玛机",
+        "id": 1685769568209
+    },
+    {
+        "type": "飞行",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "电蛙 一个秘制 常清debuff",
+        "id": 1685770169976
+    },
+    {
+        "type": "地面",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "鲸",
+        "id": 1685770514389
+    },
+    {
+        "type": "钢",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1685777108141
+    },
+    {
+        "type": "草",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "毒蛙 ",
+        "id": 1685777584925
+    },
+    {
+        "type": "岩石",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1685778001285
+    },
+    {
+        "type": "飞行",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1685778429889
+    },
+    {
+        "type": "钢",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜  一个秘制 ",
+        "id": 1685778757036
+    },
+    {
+        "type": "一般",
+        "name": "鬃岩狼人-黄昏的样子",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685779292497
+    },
+    {
+        "type": "超能力",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1685779707880
+    },
+    {
+        "type": "水",
+        "name": "晶光花",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1685780076240
+    },
+    {
+        "type": "水",
+        "name": "土王",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685780754624
+    },
+    {
+        "type": "恶",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685781266531
+    },
+    {
+        "type": "钢",
+        "name": "超坏星",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1685781816158
+    },
+    {
+        "type": "恶",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "玛机 一个秘制",
+        "id": 1685782122359
+    },
+    {
+        "type": "地面",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "兰螳花 一个秘制",
+        "id": 1685782598982
+    },
+    {
+        "type": "超能力",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "玛机",
+        "id": 1685782977949
+    },
+    {
+        "type": "冰",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "火鳄 ",
+        "id": 1685783331422
+    },
+    {
+        "type": "恶",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685783813324
+    },
+    {
+        "type": "超能力",
+        "name": "冰伊布",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1685794293105
+    },
+    {
+        "type": "水",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "电蛙 一个膏药",
+        "id": 1685794640105
+    },
+    {
+        "type": "地面",
+        "name": "鬃岩狼人-黄昏的样子",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1685795021661
+    },
+    {
+        "type": "火",
+        "name": "火伊布",
+        "success": true,
+        "notice": "月月熊 一个秘制",
+        "id": 1685795262393
+    },
+    {
+        "type": "毒",
+        "name": "火伊布",
+        "success": true,
+        "notice": "月月熊 ",
+        "id": 1685795947318
+    },
+    {
+        "type": "地面",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685796353970
+    },
+    {
+        "type": "草",
+        "name": "土王",
+        "success": true,
+        "notice": "鲸 ",
+        "id": 1685797019078
+    },
+    {
+        "type": "草",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "火毒蛾 一个膏药",
+        "id": 1685797589471
+    },
+    {
+        "type": "水",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "电蛙 一个膏药",
+        "id": 1685798325492
+    },
+    {
+        "type": "虫",
+        "name": "火伊布",
+        "success": true,
+        "notice": "火鳄 一个秘制",
+        "id": 1685798691324
+    },
+    {
+        "type": "恶",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1685798953025
+    },
+    {
+        "type": "虫",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1685799524303
+    },
+    {
+        "type": "妖精",
+        "name": "苍炎刃鬼",
+        "success": true,
+        "notice": "玛机  一个膏药",
+        "id": 1685800136461
+    },
+    {
+        "type": "妖精",
+        "name": "雪绒蛾",
+        "success": true,
+        "notice": "大锤  2个膏药",
+        "id": 1685800536582
+    },
+    {
+        "type": "飞行",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "电蛙  一个秘制",
+        "id": 1685801056270
+    },
+    {
+        "type": "虫",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "猴 一个秘制",
+        "id": 1685801600371
+    },
+    {
+        "type": "妖精",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "玛机 2个秘制",
+        "id": 1685802010934
+    },
+    {
+        "type": "冰",
+        "name": "赫拉克罗斯",
+        "success": true,
+        "notice": "火鳄 ",
+        "id": 1685803274922
+    },
+    {
+        "type": "飞行",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1685804607715
+    },
+    {
+        "type": "岩石",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "赛富豪 1个秘制",
+        "id": 1685805321085
+    },
+    {
+        "type": "钢",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "火 ",
+        "id": 1685805692644
+    },
+    {
+        "type": "一般",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1685806105760
+    },
+    {
+        "type": "水",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "玛机 一个秘制",
+        "id": 1685806697071
+    },
+    {
+        "type": "岩石",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1685807032735
+    },
+    {
+        "type": "毒",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "超梦 2个秘制",
+        "id": 1685808114799
+    },
+    {
+        "type": "草",
+        "name": "超坏星",
+        "success": true,
+        "notice": "毒蛙  ",
+        "id": 1685809735869
+    },
+    {
+        "type": "恶",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1685810125465
+    },
+    {
+        "type": "幽灵",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1685810964888
+    },
+    {
+        "type": "岩石",
+        "name": "大嘴鸥",
+        "success": true,
+        "notice": "露 ",
+        "id": 1685811364535
+    },
+    {
+        "type": "火",
+        "name": "晶光花",
+        "success": true,
+        "notice": "月月熊   一个秘制",
+        "id": 1685811571971
+    },
+    {
+        "type": "毒",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "超梦 ",
+        "id": 1685812353311
+    },
+    {
+        "type": "恶",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685812761931
+    },
+    {
+        "type": "虫",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "火毒蛾  ",
+        "id": 1685814341984
+    },
+    {
+        "type": "龙",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "玛机 一个膏药",
+        "id": 1685814702543
+    },
+    {
+        "type": "飞行",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "电蛙  ",
+        "id": 1685855608494
+    },
+    {
+        "type": "毒",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "超梦 3次强化 一个秘制",
+        "id": 1685856357883
+    },
+    {
+        "type": "火",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "露 ",
+        "id": 1685856836175
+    },
+    {
+        "type": "毒",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1685857541067
+    },
+    {
+        "type": "妖精",
+        "name": "陆地水母",
+        "success": true,
+        "notice": "玛机",
+        "id": 1685858128548
+    },
+    {
+        "type": "地面",
+        "name": "耿鬼",
+        "notice": "不打",
+        "id": 1685858517164
+    },
+    {
+        "type": "超能力",
+        "name": "自爆磁怪",
+        "success": true,
+        "notice": "赛富豪   ",
+        "id": 1685859353193
+    },
+    {
+        "type": "钢",
+        "name": "冰伊布",
+        "success": true,
+        "notice": "火鳄  ",
+        "id": 1685859935756
+    },
+    {
+        "type": "虫",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "猴  ",
+        "id": 1685860247635
+    },
+    {
+        "type": "地面",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "兰螳花",
+        "id": 1685861011307
+    },
+    {
+        "type": "火",
+        "name": "火伊布",
+        "success": true,
+        "notice": "露  ",
+        "id": 1685862147953
+    },
+    {
+        "type": "冰",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "赛富豪 2个秘制",
+        "id": 1685862665384
+    },
+    {
+        "type": "毒",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "超梦 3次一个膏药 一个秘制",
+        "id": 1685862961011
+    },
+    {
+        "type": "钢",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜  3个秘制",
+        "id": 1685866393609
+    },
+    {
+        "type": "格斗",
+        "name": "晶光花",
+        "success": true,
+        "notice": "超梦 6次  一个膏药",
+        "id": 1685866702570
+    },
+    {
+        "type": "飞行",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "密勒顿   ",
+        "id": 1685867363440
+    },
+    {
+        "type": "飞行",
+        "name": "自爆磁怪",
+        "success": true,
+        "notice": "密勒顿 ",
+        "id": 1685867716638
+    },
+    {
+        "type": "超能力",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "赛富豪   ",
+        "id": 1685868146343
+    },
+    {
+        "type": "妖精",
+        "name": "钢炮臂虾",
+        "success": true,
+        "notice": "毒蛙  一个秘制",
+        "id": 1685868573295
+    },
+    {
+        "type": "冰",
+        "name": "晶光花",
+        "success": true,
+        "notice": "大锤 一个膏药",
+        "id": 1685869414361
+    },
+    {
+        "type": "幽灵",
+        "name": "土王",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1685869917680
+    },
+    {
+        "type": "幽灵",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "赛富豪   ",
+        "id": 1685870264171
+    },
+    {
+        "type": "虫",
+        "name": "雷伊布",
+        "success": true,
+        "notice": "火鳄   ",
+        "id": 1685870757111
+    },
+    {
+        "type": "毒",
+        "name": "沙奈朵",
+        "success": true,
+        "notice": "月月熊   2个秘制  ",
+        "id": 1685871185777
+    },
+    {
+        "type": "地面",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "兰螳花   ",
+        "id": 1685872427916
+    },
+    {
+        "type": "水",
+        "name": "超坏星",
+        "success": true,
+        "notice": "密勒顿 ",
+        "id": 1685872965519
+    },
+    {
+        "type": "飞行",
+        "name": "摩托蜥",
+        "success": true,
+        "notice": "密勒顿   ",
+        "id": 1685873996748
+    },
+    {
+        "type": "格斗",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1685875232739
+    },
+    {
+        "type": "草",
+        "name": "土王",
+        "success": true,
+        "notice": "鲸   3个秘制",
+        "id": 1685875714260
+    },
+    {
+        "type": "妖精",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "毒蛙",
+        "id": 1685876101749
+    },
+    {
+        "type": "恶",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜 5个秘制 1个膏药",
+        "id": 1685876538741
+    },
+    {
+        "type": "水",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "密勒顿  ",
+        "id": 1685876909061
+    },
+    {
+        "type": "一般",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685877897557
+    },
+    {
+        "type": "恶",
+        "name": "弃世猴",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1685879275361
+    },
+    {
+        "type": "恶",
+        "name": "斗笠菇",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685879721020
+    },
+    {
+        "type": "冰",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "火鳄  ",
+        "id": 1685880390054
+    },
+    {
+        "type": "格斗",
+        "name": "烈咬陆鲨",
+        "success": true,
+        "notice": "玛机  一个膏药",
+        "id": 1685880811347
+    },
+    {
+        "type": "水",
+        "name": "下石鸟",
+        "success": true,
+        "notice": "密勒顿 ",
+        "id": 1685881197474
+    },
+    {
+        "type": "幽灵",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "玛机   ",
+        "id": 1685881795676
+    },
+    {
+        "type": "龙",
+        "name": "火神蛾",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685882246505
+    },
+    {
+        "type": "钢",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "火鳄  ",
+        "id": 1685882812316
+    },
+    {
+        "type": "水",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "密勒顿",
+        "id": 1685883215764
+    },
+    {
+        "type": "妖精",
+        "name": "仙子伊布",
+        "success": true,
+        "notice": "毒蛾 2个秘制",
+        "id": 1685883878620
+    },
+    {
+        "type": "冰",
+        "name": "麻花犬",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1685884474814
+    },
+    {
+        "type": "恶",
+        "name": "超坏星",
+        "success": true,
+        "notice": "玛机   ",
+        "id": 1685884926246
+    },
+    {
+        "type": "虫",
+        "name": "普隆隆姆",
+        "success": true,
+        "notice": "火鳄  ",
+        "id": 1685885216914
+    },
+    {
+        "type": "钢",
+        "name": "火伊布",
+        "success": true,
+        "notice": "大逼兜   一个秘制",
+        "id": 1685885650879
+    },
+    {
+        "type": "妖精",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "赛富豪   ",
+        "id": 1685886248837
+    },
+    {
+        "type": "岩石",
+        "name": "自爆磁怪",
+        "success": true,
+        "notice": "兰螳花  ",
+        "id": 1685886605575
+    },
+    {
+        "type": "恶",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685888088909
+    },
+    {
+        "type": "钢",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "火鳄 ",
+        "id": 1685888446772
+    },
+    {
+        "type": "龙",
+        "name": "斗笠菇",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1685889135526
+    },
+    {
+        "type": "岩石",
+        "name": "晶光花",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1685889641918
+    },
+    {
+        "type": "一般",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1685890238800
+    },
+    {
+        "type": "钢",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "大逼兜 ",
+        "id": 1685890554061
+    },
+    {
+        "type": "火",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "鲸  3个秘制",
+        "id": 1685890858596
+    },
+    {
+        "type": "冰",
+        "name": "晶光花",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1685891669666
+    },
+    {
+        "type": "幽灵",
+        "name": "晶光花",
+        "success": true,
+        "notice": "黑马  ",
+        "id": 1685892484822
+    },
+    {
+        "type": "草",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "火毒蛾  ",
+        "id": 1685892908815
+    },
+    {
+        "type": "妖精",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "赛富豪   ",
+        "id": 1685893196768
+    },
+    {
+        "type": "幽灵",
+        "name": "暴飞龙",
+        "notice": "放弃",
+        "id": 1685893416046
+    },
+    {
+        "type": "冰",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1685942822162
+    },
+    {
+        "type": "飞行",
+        "name": "麻花犬",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1685943178543
+    },
+    {
+        "type": "地面",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "鲸  一个秘制",
+        "id": 1685943656521
+    },
+    {
+        "type": "水",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "密勒顿  一个秘制",
+        "id": 1685944280178
+    },
+    {
+        "type": "冰",
+        "name": "艾路雷朵",
+        "success": true,
+        "notice": "火 一个秘制",
+        "id": 1685944572335
+    },
+    {
+        "type": "冰",
+        "name": "钢铠鸦",
+        "success": true,
+        "notice": "火 ",
+        "id": 1685945082377
+    },
+    {
+        "type": "毒",
+        "name": "麻花犬",
+        "success": true,
+        "notice": "月月熊 一个秘制",
+        "id": 1685945344195
+    },
+    {
+        "type": "水",
+        "name": "斗笠菇",
+        "success": true,
+        "notice": "密勒顿   ",
+        "id": 1685945760969
+    },
+    {
+        "type": "格斗",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "玛机",
+        "id": 1685947535291
+    },
+    {
+        "type": "恶",
+        "name": "巨锻匠",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1685947994552
+    },
+    {
+        "type": "幽灵",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "猴  一个秘制",
+        "id": 1685973080481
+    },
+    {
+        "type": "虫",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "猴 一个膏药",
+        "id": 1685973543139
+    },
+    {
+        "type": "地面",
+        "name": "煤炭龟",
+        "success": true,
+        "notice": "玛机   一个秘制",
+        "id": 1685973996459
+    },
+    {
+        "type": "岩石",
+        "name": "败露球菇",
+        "success": true,
+        "notice": "大逼兜   一个秘制 一个膏药",
+        "id": 1685974392762
+    },
+    {
+        "type": "毒",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "超梦  6次",
+        "id": 1685974706454
+    },
+    {
+        "type": "一般",
+        "name": "河马兽",
+        "success": true,
+        "notice": "玛机   ",
+        "id": 1685975420282
+    },
+    {
+        "type": "一般",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1685975757333
+    },
+    {
+        "type": "恶",
+        "name": "巴布土拨",
+        "success": true,
+        "notice": "玛机   ",
+        "id": 1685976102515
+    },
+    {
+        "type": "龙",
+        "name": "超坏星",
+        "success": true,
+        "notice": "鲸",
+        "id": 1685976645436
+    },
+    {
+        "type": "毒",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "月月熊-地震",
+        "id": 1685977311435
+    },
+    {
+        "type": "龙",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "玛机    一个秘制",
+        "id": 1685977708924
+    },
+    {
+        "type": "飞行",
+        "name": "晶光花",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1685978350901
+    },
+    {
+        "type": "虫",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "火鳄 一个秘制",
+        "id": 1686322927012
+    },
+    {
+        "type": "岩石",
+        "name": "弃世猴",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1686323264358
+    },
+    {
+        "type": "毒",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "月月熊  ",
+        "id": 1686323626510
+    },
+    {
+        "type": "飞行",
+        "name": "獒教父",
+        "success": true,
+        "notice": "密勒顿  一个秘制",
+        "id": 1686324011859
+    },
+    {
+        "type": "飞行",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "电蛙 ",
+        "id": 1686324451073
+    },
+    {
+        "type": "草",
+        "name": "一家鼠",
+        "success": true,
+        "notice": "火毒蛾  ",
+        "id": 1686324855986
+    },
+    {
+        "type": "超能力",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "鬼马  一个秘制",
+        "id": 1686325566831
+    },
+    {
+        "type": "电",
+        "name": "煤炭龟",
+        "success": true,
+        "notice": "玛机 一个膏药",
+        "id": 1686326098296
+    },
+    {
+        "type": "龙",
+        "name": "暴鲤龙",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1686326486270
+    },
+    {
+        "type": "火",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "月月熊  一个秘制 一个膏药",
+        "id": 1686326834543
+    },
+    {
+        "type": "恶",
+        "name": "暴飞龙",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1686327188043
+    },
+    {
+        "type": "超能力",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "黑马   ",
+        "id": 1686327581739
+    },
+    {
+        "type": "格斗",
+        "name": "姆克鹰",
+        "success": true,
+        "notice": "玛机  一个秘制",
+        "id": 1686401395655
+    },
+    {
+        "type": "火",
+        "name": "呆呆王",
+        "success": true,
+        "notice": "露   ",
+        "id": 1686401722770
+    },
+    {
+        "type": "飞行",
+        "name": "多龙巴鲁托",
+        "success": true,
+        "notice": "密勒顿  ",
+        "id": 1686402708684
+    },
+    {
+        "type": "草",
+        "name": "巨钳螳螂",
+        "success": true,
+        "notice": "毒蛙   一个秘制",
+        "id": 1686403392639
+    },
+    {
+        "type": "龙",
+        "name": "暴飞龙",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1686403794332
+    },
+    {
+        "type": "地面",
+        "name": "毛崖蟹",
+        "success": true,
+        "notice": "露",
+        "id": 1686993711456
+    },
+    {
+        "type": "飞行",
+        "name": "黏美龙",
+        "success": true,
+        "notice": "鲸",
+        "id": 1688738008692
+    },
+    {
+        "type": "水",
+        "name": "太阳伊布",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1688738444856
+    },
+    {
+        "type": "毒",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "月月熊 贝壳 一个秘制",
+        "id": 1688739396357
+    },
+    {
+        "type": "电",
+        "name": "烈箭鹰",
+        "success": true,
+        "notice": "月月熊 贝壳 一个膏药",
+        "id": 1688739914306
+    },
+    {
+        "type": "虫",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "火鳄 一个秘制 一个膏药",
+        "id": 1688740501813
+    },
+    {
+        "type": "超能力",
+        "name": "弃世猴",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1688741152378
+    },
+    {
+        "type": "恶",
+        "name": "火伊布",
+        "success": true,
+        "notice": "大逼兜  一个秘制",
+        "id": 1688741671753
+    },
+    {
+        "type": "飞行",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1688742054430
+    },
+    {
+        "type": "钢",
+        "name": "谜拟丘",
+        "success": true,
+        "notice": "火鳄",
+        "id": 1688742523325
+    },
+    {
+        "type": "恶",
+        "name": "盐石巨灵",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1688743037787
+    },
+    {
+        "type": "地面",
+        "name": "双斧战龙",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1688743497268
+    },
+    {
+        "type": "电",
+        "name": "太阳伊布",
+        "success": true,
+        "notice": "月月熊 贝壳",
+        "id": 1688743837095
+    },
+    {
+        "type": "地面",
+        "name": "啪嚓海胆",
+        "success": true,
+        "notice": "鲸 一个膏药",
+        "id": 1688744699273
+    },
+    {
+        "type": "水",
+        "name": "幸福蛋",
+        "success": true,
+        "notice": "铁斑叶",
+        "id": 1688823893074
+    },
+    {
+        "type": "妖精",
+        "name": "肯泰罗",
+        "success": true,
+        "notice": "玛机  一个秘制",
+        "id": 1688824244980
+    },
+    {
+        "type": "火",
+        "name": "獒教父",
+        "success": true,
+        "notice": "月月熊  贝壳 ",
+        "id": 1688824631352
+    },
+    {
+        "type": "地面",
+        "name": "仆刀将军",
+        "success": true,
+        "notice": "兰螳花  一个秘制 一个膏药",
+        "id": 1688825181559
+    },
+    {
+        "type": "毒",
+        "name": "钢铠鸦",
+        "success": true,
+        "notice": "呆呆兽 ",
+        "id": 1688826604487
+    },
+    {
+        "type": "虫",
+        "name": "煤炭龟",
+        "success": true,
+        "notice": "火鳄  ",
+        "id": 1688827347879
+    },
+    {
+        "type": "幽灵",
+        "name": "浩大鲸",
+        "success": true,
+        "notice": "黑马 3个秘制",
+        "id": 1688828231194
+    },
+    {
+        "type": "草",
+        "name": "肯泰罗-水澜种",
+        "success": true,
+        "notice": "毒蛙",
+        "id": 1688828590680
+    },
+    {
+        "type": "钢",
+        "name": "冰岩怪",
+        "success": true,
+        "notice": "火鳄",
+        "id": 1688829724925
+    },
+    {
+        "type": "恶",
+        "name": "吃吼霸",
+        "success": true,
+        "notice": "大逼兜   ",
+        "id": 1688830467747
+    },
+    {
+        "type": "恶",
+        "name": "涂标客",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1688830827125
+    },
+    {
+        "type": "妖精",
+        "name": "戟脊龙",
+        "success": true,
+        "notice": "毒蛙 一个膏药 一个秘制",
+        "id": 1691822955865
+    },
+    {
+        "type": "一般",
+        "name": "拖拖蚓",
+        "success": true,
+        "notice": "大逼兜 一个秘制",
+        "id": 1691823560721
+    },
+    {
+        "type": "超能力",
+        "name": "土王",
+        "success": true,
+        "notice": "弃世猴",
+        "id": 1691824225761
+    },
+    {
+        "type": "格斗",
+        "name": "修建老匠",
+        "success": true,
+        "notice": "玛机",
+        "id": 1694780482309
+    },
+    {
+        "type": "飞行",
+        "name": "九尾",
+        "success": true,
+        "notice": "密勒顿  一个膏药",
+        "id": 1694780912104
+    },
+    {
+        "type": "飞行",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "密勒顿  2个秘制",
+        "id": 1694781886244
+    },
+    {
+        "type": "恶",
+        "name": "九尾",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1694782350471
+    },
+    {
+        "type": "冰",
+        "name": "蚊香蛙皇",
+        "success": true,
+        "notice": "赛富豪",
+        "id": 1694783088072
+    },
+    {
+        "type": "格斗",
+        "name": "师父鼬",
+        "success": true,
+        "notice": "玛机",
+        "id": 1694783565838
+    },
+    {
+        "type": "超能力",
+        "name": "杖尾鳞甲龙",
+        "success": true,
+        "notice": "黑马 ",
+        "id": 1694784015945
+    },
+    {
+        "type": "龙",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "玛机",
+        "id": 1694784450946
+    },
+    {
+        "type": "水",
+        "name": "莫鲁贝可",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1694784785273
+    },
+    {
+        "type": "恶",
+        "name": "沼王",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1694785264682
+    },
+    {
+        "type": "一般",
+        "name": "乐天河童",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1694785973640
+    },
+    {
+        "type": "妖精",
+        "name": "修建老匠",
+        "success": true,
+        "notice": "毒蛙  ",
+        "id": 1694786323010
+    },
+    {
+        "type": "虫",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1694786813126
+    },
+    {
+        "type": "飞行",
+        "name": "九尾",
+        "success": true,
+        "notice": "密勒顿 一个膏药",
+        "id": 1694787244528
+    },
+    {
+        "type": "钢",
+        "name": "黑夜魔灵",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1694787674895
+    },
+    {
+        "type": "龙",
+        "name": "水晶灯火灵",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1694788209741
+    },
+    {
+        "type": "电",
+        "name": "九尾",
+        "success": true,
+        "notice": "月月熊",
+        "id": 1694788811736
+    },
+    {
+        "type": "毒",
+        "name": "隆隆岩",
+        "success": true,
+        "notice": "月月熊 一个秘制",
+        "id": 1694789189436
+    },
+    {
+        "type": "格斗",
+        "name": "杖尾鳞甲龙",
+        "success": true,
+        "notice": "玛机",
+        "id": 1694789868656
+    },
+    {
+        "type": "一般",
+        "name": "远古巨蜓",
+        "success": true,
+        "notice": "玛机 一个秘制",
+        "id": 1694790965642
+    },
+    {
+        "type": "冰",
+        "name": "莫鲁贝可",
+        "success": true,
+        "notice": "火鳄鱼 ",
+        "id": 1694791348104
+    },
+    {
+        "type": "飞行",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "密勒顿  ",
+        "id": 1694791774916
+    },
+    {
+        "type": "电",
+        "name": "师父鼬",
+        "success": true,
+        "notice": "土地云  一个秘制",
+        "id": 1694792168781
+    },
+    {
+        "type": "草",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "毒蛙 ",
+        "id": 1694792633428
+    },
+    {
+        "type": "虫",
+        "name": "象牙猪",
+        "success": true,
+        "notice": "猴哥 ",
+        "id": 1694793451681
+    },
+    {
+        "type": "龙",
+        "name": "莫鲁贝可",
+        "success": true,
+        "notice": "玛机  2个膏药",
+        "id": 1694833843024
+    },
+    {
+        "type": "一般",
+        "name": "卡比兽",
+        "success": true,
+        "notice": "大逼兜  ",
+        "id": 1694834275627
+    },
+    {
+        "type": "格斗",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1694834655874
+    },
+    {
+        "type": "水",
+        "name": "莫鲁贝可",
+        "success": true,
+        "notice": "密勒顿  ",
+        "id": 1694835019258
+    },
+    {
+        "type": "火",
+        "name": "皮可西",
+        "success": true,
+        "notice": "猴哥 ",
+        "id": 1694836031701
+    },
+    {
+        "type": "电",
+        "name": "保姆虫",
+        "success": true,
+        "notice": "猴哥 ",
+        "id": 1694836437399
+    },
+    {
+        "type": "格斗",
+        "name": "沼王",
+        "success": true,
+        "notice": "玛机  一个膏药",
+        "id": 1694878154552
+    },
+    {
+        "type": "一般",
+        "name": "莫鲁贝可",
+        "success": true,
+        "notice": "大逼兜  一个膏药",
+        "id": 1694878475347
+    },
+    {
+        "type": "冰",
+        "name": "乐天河童",
+        "success": true,
+        "notice": "玛机  ",
+        "id": 1694879201238
+    },
+    {
+        "type": "格斗",
+        "name": "朽木妖",
+        "success": true,
+        "notice": "玛机  一个秘制",
+        "id": 1694879674147
+    },
+    {
+        "type": "虫",
+        "name": "秃鹰娜",
+        "success": true,
+        "notice": "玛机   ",
+        "id": 1694880493379
+    },
+    {
+        "type": "恶",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "玛机",
+        "id": 1697467535171
+    },
+    {
+        "type": "水",
+        "name": "隆隆岩",
+        "success": true,
+        "notice": "兰螳花  ",
+        "id": 1697467882107
+    },
+    {
+        "type": "一般",
+        "name": "乐天河童",
+        "success": true,
+        "notice": "故勒顿  ",
+        "id": 1697468442031
+    },
+    {
+        "type": "幽灵",
+        "name": "狡猾天狗",
+        "success": true,
+        "notice": "仆刀 一个熬药",
+        "id": 1697468989856
+    },
+    {
+        "type": "钢",
+        "name": "杖尾鳞甲龙",
+        "success": true,
+        "notice": "大逼兜",
+        "id": 1700740698057
+    },
+    {
+        "type": "超能力",
+        "name": "幽尾玄鱼",
+        "success": true,
+        "notice": "2个秘制 开局开盾大晴天",
+        "id": 1700741642502
+    },
+    {
+        "type": "幽灵",
+        "name": "隆隆岩",
+        "success": true,
+        "notice": "黑马 一个秘制",
+        "id": 1700742245375
+    },
+    {
+        "type": "冰",
+        "name": "保姆虫",
+        "success": true,
+        "notice": "大逼兜 1个秘制 1个膏药",
+        "id": 1700742660460
+    },
+    {
+        "type": "钢",
+        "name": "水晶灯火灵",
+        "success": true,
+        "notice": "麻花犬 ",
+        "id": 1700743500528
+    },
+    {
+        "type": "幽灵",
+        "name": "杖尾鳞甲龙",
+        "success": true,
+        "notice": "黑马 一个秘制",
+        "id": 1700743992269
+    },
+    {
+        "type": "幽灵",
+        "name": "蚊香蛙皇",
+        "success": true,
+        "notice": "猴 2个秘制",
+        "id": 1700918619772
+    },
+    {
+        "type": "虫",
+        "name": "师父鼬",
+        "success": true,
+        "notice": "火鳄 一个膏药",
+        "id": 1700919115273
+    },
+    {
+        "type": "格斗",
+        "name": "黑夜魔灵",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1700919650957
+    },
+    {
+        "type": "格斗",
+        "name": "秃鹰娜",
+        "success": true,
+        "notice": "玛机 1个秘制",
+        "id": 1700920071297
+    },
+    {
+        "type": "地面",
+        "name": "幽尾玄鱼",
+        "success": true,
+        "notice": "玛丽 2个秘制",
+        "id": 1701261492492
+    },
+    {
+        "type": "妖精",
+        "name": "师父鼬",
+        "success": true,
+        "notice": "火蛾",
+        "id": 1701261815343
+    },
+    {
+        "type": "草",
+        "name": "秃鹰娜",
+        "success": true,
+        "notice": "鲸 一个秘制",
+        "id": 1701262242982
+    },
+    {
+        "type": "草",
+        "name": "蚊香泳士",
+        "success": true,
+        "notice": "猴 一个膏药",
+        "id": 1701263623022
+    },
+    {
+        "type": "冰",
+        "name": "幽尾玄鱼",
+        "success": true,
+        "notice": "大逼兜  2个秘制",
+        "id": 1701586766417
+    },
+    {
+        "type": "虫",
+        "name": "来悲粗茶",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1701587196076
+    },
+    {
+        "type": "电",
+        "name": "隆隆岩",
+        "success": true,
+        "notice": "玛机 ",
+        "id": 1701587619647
+    },
+    {
+        "type": "电",
+        "name": "象牙猪",
+        "success": true,
+        "notice": "猴 ",
+        "id": 1701588210770
+    },
+    {
+        "type": "水",
+        "name": "卡比兽",
+        "success": true,
+        "notice": "密勒顿 一个秘制",
+        "id": 1701588962944
+    }
+]
