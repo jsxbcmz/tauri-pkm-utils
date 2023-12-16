@@ -1,46 +1,40 @@
-import { useState } from "react";
-import Raid from "../src/pages/raid-6x";
-import Menu from "../src/pages/menu";
-import EditPokemonInfo from "../src/pages/editPokemonInfo";
-import { Tabs } from "antd";
-import './App.css';
+import { Menu } from "antd";
+import { Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import Raid from "@pages/raid";
+import nav from "./nav";
+import "./App.css";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("1");
+  const items = nav.map((i) => {
+    return {
+      key: i.path,
+      label: <Link to={i.path}>{i.title}</Link>,
+    };
+  });
 
-  const renderContemt = () => {
-    switch (activeTab) {
-      case "2":
-        return <EditPokemonInfo />;
-      case "3":
-        return <Menu />;
-      default:
-        return <Raid />;
-    }
-  };
   return (
-    <div style={{ margin: "0 10px" }}>
-      <Tabs
-        defaultActiveKey="1"
-        onChange={setActiveTab}
-        items={[
-          {
-            label: `6星团战`,
-            key: "1",
-          },
-          {
-            label: `宝可梦信息更新`,
-            key: "2",
-          },
-          {
-            label: `闪耀力对应材料`,
-            key: "3",
-          },
-          
-        ]}
-      />
-
-      {renderContemt()}
+    <div className="g-flexbox">
+      <BrowserRouter>
+        <Menu
+          style={{
+            width: 100,
+          }}
+          mode="inline"
+          items={items}
+          defaultSelectedKeys={['/raid']}
+        />
+        <div className="container">
+          <Routes>
+            {nav.map((i) => {
+              return (
+                <Route key={i.path} path={i.path} element={<i.component />} />
+              );
+            })}
+            <Route key="/" path="/" element={<Raid />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }

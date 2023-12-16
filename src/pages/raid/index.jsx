@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Select, Form, Checkbox, Input, Button, Popconfirm } from "antd";
-import { TYPE, RESTRAINT } from "../common/data";
-import fsUtils from "../utils/fs";
+import { TYPE, RESTRAINT } from "@common/data";
+import fsUtils from "@utils/fs";
 
 function Raid() {
   const [form] = Form.useForm();
@@ -223,6 +223,10 @@ function Raid() {
       </Form>
 
       <div>历史记录：</div>
+      <div style={{
+        maxHeight:'320px',
+        overflowY:'scroll',
+      }}>
       {history
         .filter((i) => {
           if (a && c) {
@@ -250,6 +254,7 @@ function Raid() {
             </span>
           </div>
         ))}
+      </div>
     </div>
   );
 }

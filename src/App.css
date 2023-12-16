@@ -52,3 +52,11 @@ body {
 .ant-btn {
   box-shadow: none;
 }
+
+.g-flexbox {
+  display: flex;
+}
+
+.container{
+  width: calc(100vw - 110px);
+}

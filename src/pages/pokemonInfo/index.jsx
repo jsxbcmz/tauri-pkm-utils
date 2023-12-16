@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import { Table, Input, Modal, Form, Select, Button,Popconfirm } from "antd";
-import fsUtils from "../utils/fs";
-import { TYPE } from "../common/data";
+import { Table, Input, Modal, Form, Select, Button, Popconfirm } from "antd";
+import fsUtils from "@utils/fs";
+import { TYPE } from "@common/data";
 
 export default () => {
   const [infoList, setInfoList] = useState([]);
@@ -22,20 +22,24 @@ export default () => {
     setVisible(true);
   };
 
-  const onDel = id =>{
-    fsUtils.writeJson("1", infoList.filter(i=>i.id!==id), () => {
-      fsUtils.readJson("1", setInfoList);
-    });
-  }
+  const onDel = (id) => {
+    fsUtils.writeJson(
+      "1",
+      infoList.filter((i) => i.id !== id),
+      () => {
+        fsUtils.readJson("1", setInfoList);
+      }
+    );
+  };
 
   const onSubmit = (values = {}) => {
     const { moves = [], special = "" } = values;
     const infoItem = infoList.find((i) => i.id === editItem.id);
-    if(!infoItem){
+    if (!infoItem) {
       infoList.push({
-       ...values,
-       id: new Date().valueOf()
-    });
+        ...values,
+        id: new Date().valueOf(),
+      });
     } else {
       infoItem.moves = moves;
       infoItem.special = special;
@@ -66,25 +70,25 @@ export default () => {
       dataIndex: "id",
       width: "100px",
       render: (_v, record) => (
-       <>
-        <a
-          onClick={() => {
-            onEdit(record);
-          }}
-        >
-          编辑
-        </a>
-        <Popconfirm
-                title="删除?"
-                okText="是"
-                cancelText="否"
-                onConfirm={() => {
-                  onDel(record.id);
-                }}
-              >
-                <a  style={{marginLeft:'8px'}}>删除</a>
-              </Popconfirm>
-      </>
+        <>
+          <a
+            onClick={() => {
+              onEdit(record);
+            }}
+          >
+            编辑
+          </a>
+          <Popconfirm
+            title="删除?"
+            okText="是"
+            cancelText="否"
+            onConfirm={() => {
+              onDel(record.id);
+            }}
+          >
+            <a style={{ marginLeft: "8px" }}>删除</a>
+          </Popconfirm>
+        </>
       ),
     },
   ];
@@ -92,15 +96,17 @@ export default () => {
   return (
     <div>
       <div>
-      <Input
-        onChange={onChangeName}
-        value={name}
-        style={{ width: "200px" }}
-        placeholder="宝可梦名字"
-      />
-      <Button type="primary" onClick={onEdit}>新增</Button>
+        <Input
+          onChange={onChangeName}
+          value={name}
+          style={{ width: "200px" }}
+          placeholder="宝可梦名字"
+        />
+        <Button type="primary" onClick={onEdit}>
+          新增
+        </Button>
       </div>
-      
+
       <Table
         columns={columns}
         dataSource={infoList.filter((i) =>
@@ -159,7 +165,9 @@ function InfoModal({ editItem, setVisible, onSubmit }) {
         <Form.Item label="技能类型" name="moves">
           <Select showSearch mode="multiple" allowClear>
             {TYPE.map((i) => (
-              <Select.Option value={i.name}>{i.name}</Select.Option>
+              <Select.Option value={i.name} key={i.name}>
+                {i.name}
+              </Select.Option>
             ))}
           </Select>
         </Form.Item>

@@ -1,0 +1,22 @@
+.mapEvent{
+  position: relative;
+}
+.mapEventMask{
+  position: absolute;
+  height: 680px;
+  width: 680px;
+  z-index: 10;
+}
+.mapEvent .item{
+  display: block;
+  width: 170px;
+  height: 170px;
+  float: left;
+}
+
+.eventItem{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}

@@ -3,6 +3,7 @@ import { readTextFile, writeTextFile, BaseDirectory } from '@tauri-apps/api/fs';
 const FILE_PATHNAME_MAP = {
   '1':'commonData/raidPokemon.json',
   '2':'commonData/history.json',
+  '3':'commonData/mapEvent.json',
 }
  
  const fsUtils = {

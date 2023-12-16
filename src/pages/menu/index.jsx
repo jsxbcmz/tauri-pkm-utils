@@ -1,10 +1,11 @@
-import { TYPE } from "../common/data";
+import { TYPE } from "@common/data";
 
 export default () => {
   return (
     <div>
       {TYPE.map((i) => (
         <span
+          key={i.material}
           className={`type-item`}
           style={{
             background: i.color,
