@@ -1,61 +1,147 @@
-import { useState, useEffect } from "react";
-import { Select, Form, Checkbox, Input, Button, Popconfirm } from "antd";
+import { useState, useEffect, useCallback, useMemo } from "react";
+import { Select, Form, Checkbox, Input, Button, Popconfirm, message } from "antd";
 import { TYPE, RESTRAINT } from "@common/data";
 import fsUtils from "@utils/fs";
 
 function Raid() {
   const [form] = Form.useForm();
-  const [a, setA] = useState("");
-  const [b, setB] = useState([]);
+  const [selectedType, setSelectedType] = useState("");
+  const [bestTypes, setBestTypes] = useState([]);
 
-  const [c, setC] = useState("");
-  const [d, setD] = useState([]);
-  const [e, setE] = useState([]);
+  const [selectedPokemon, setSelectedPokemon] = useState("");
+  const [avoidTypes, setAvoidTypes] = useState([]);
+  const [recommendTypes, setRecommendTypes] = useState([]);
 
   const [history, setHistory] = useState([]);
   const [pokemonList, setPokemonList] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setB(matchA(a));
-  }, [a]);
-
-  useEffect(() => {
-    setD(matchC(c, true, pokemonList));
-    setE(matchC(c, false, pokemonList));
-  }, [c]);
-
-  useEffect(() => {
-    fsUtils.readJson("1", setPokemonList);
-
-    fsUtils.readJson("2", setHistory);
+  // 获取最佳属性
+  const getBestTypes = useCallback((type) => {
+    const list = [];
+    if (type) {
+      Object.keys(RESTRAINT).forEach((attackerType) => {
+        Object.keys(RESTRAINT[attackerType]).forEach((defenderType) => {
+          if (RESTRAINT[attackerType][defenderType] > 1 && defenderType === type) {
+            list.push(attackerType);
+          }
+        });
+      });
+    }
+    return list;
   }, []);
 
-  const onFinish = (values) => {
-    values.id = new Date().valueOf();
-    history.push(values);
-    form.resetFields();
-    fsUtils.writeJson("2", history, () => {
-      fsUtils.readJson("2", setHistory);
+  // 获取避免/推荐属性
+  const getMoveTypes = useCallback((pokemonName, shouldAvoid, list) => {
+    const result = [];
+    if (!pokemonName) return [];
+
+    const pokemon = list.find(p => p.name === pokemonName);
+    if (!pokemon || !pokemon.moves) return [];
+
+    const moves = pokemon.moves;
+    moves.forEach(moveType => {
+      Object.keys(RESTRAINT[moveType]).forEach(defenderType => {
+        if (shouldAvoid ? RESTRAINT[moveType][defenderType] > 1 : RESTRAINT[moveType][defenderType] < 1) {
+          result.push(defenderType);
+        }
+      });
     });
+
+    // 统计类型出现次数
+    const counted = result.reduce((acc, type) => {
+      const existing = acc.find(item => item.name === type);
+      if (existing) {
+        existing.num += 1;
+      } else {
+        acc.push({ name: type, num: 1 });
+      }
+      return acc;
+    }, []);
+    
+    return counted;
+  }, []);
+
+  useEffect(() => {
+    setBestTypes(getBestTypes(selectedType));
+  }, [selectedType, getBestTypes]);
+
+  useEffect(() => {
+    setAvoidTypes(getMoveTypes(selectedPokemon, true, pokemonList));
+    setRecommendTypes(getMoveTypes(selectedPokemon, false, pokemonList));
+  }, [selectedPokemon, pokemonList, getMoveTypes]);
+
+  useEffect(() => {
+    const loadInitialData = async () => {
+      try {
+        await Promise.all([
+          fsUtils.readJson("1", setPokemonList),
+          fsUtils.readJson("2", setHistory)
+        ]);
+      } catch (error) {
+        console.error("Failed to load initial data:", error);
+        message.error("加载数据失败");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadInitialData();
+  }, []);
+
+  const handleSubmit = async (values) => {
+    try {
+      const newRecord = {
+        ...values,
+        id: Date.now() + Math.floor(Math.random() * 1000), // 避免重复ID
+      };
+
+      const updatedHistory = [...history, newRecord];
+      await fsUtils.writeJson("2", updatedHistory);
+      setHistory(updatedHistory);
+      form.resetFields();
+      message.success("记录已添加");
+    } catch (error) {
+      console.error("Failed to add record:", error);
+      message.error("添加记录失败");
+    }
   };
 
-  const onChangeA = (v = "") => {
-    const type = v === a ? "" : v;
-    form.setFieldsValue({ type: type });
-    setA(type);
+  const handleTypeClick = (type) => {
+    const newType = selectedType === type ? "" : type;
+    setSelectedType(newType);
+    form.setFieldsValue({ type: newType });
   };
 
-  const onChangeC = (v = "") => {
-    form.setFieldsValue({ name: v });
-    setC(v);
+  const handlePokemonChange = (value) => {
+    setSelectedPokemon(value);
+    form.setFieldsValue({ name: value });
   };
 
-  const onDelConfirm = (id) => {
-    let h = history.filter((i) => i.id !== id);
-    fsUtils.writeJson("2", h, () => {
-      fsUtils.readJson("2", setHistory);
+  const handleDelete = async (id) => {
+    try {
+      const updatedHistory = history.filter(item => item.id !== id);
+      await fsUtils.writeJson("2", updatedHistory);
+      setHistory(updatedHistory);
+      message.success("记录已删除");
+    } catch (error) {
+      console.error("Failed to delete record:", error);
+      message.error("删除记录失败");
+    }
+  };
+
+  // 使用 useMemo 优化类型颜色查找
+  const getTypeColor = useMemo(() => {
+    const colorMap = {};
+    TYPE.forEach(type => {
+      colorMap[type.name] = type.color;
     });
-  };
+    return (typeName) => colorMap[typeName] || '#ccc';
+  }, []);
+
+  if (loading) {
+    return <div style={{ padding: '20px', textAlign: 'center' }}>加载中...</div>;
+  }
 
   return (
     <div className="home">
@@ -63,39 +149,55 @@ function Raid() {
         <div>坑属性：</div>
         <div className="type-conatiner">
           <div style={{ width: "460px", marginRight: "15px" }}>
-            <div>选择属性：{a}</div>
-            {TYPE.map((i) => (
+            <div>选择属性：{selectedType || "未选择"}</div>
+            {TYPE.map((type) => (
               <span
-                className={`type-item ${a === i.name ? "activeType" : ""}`}
-                style={{ background: i.color, borderColor: i.color }}
-                onClick={() => {
-                  onChangeA(i.name);
+                key={type.name}
+                className={`type-item ${selectedType === type.name ? "activeType" : ""}`}
+                style={{ 
+                  background: type.color, 
+                  borderColor: type.color,
+                  cursor: 'pointer',
+                  padding: '4px 8px',
+                  margin: '2px',
+                  borderRadius: '4px'
                 }}
+                onClick={() => handleTypeClick(type.name)}
               >
-                {i.name}
+                {type.name}
               </span>
             ))}
           </div>
           <div style={{ width: "290px" }}>
             <div>最佳属性：</div>
             <div>
-              {b?.length
-                ? b.map((i) => (
+              {bestTypes.length > 0 ? (
+                bestTypes.map(typeName => {
+                  const type = TYPE.find(t => t.name === typeName);
+                  return type ? (
                     <span
-                      className={`type-item`}
+                      key={typeName}
+                      className="type-item"
                       style={{
-                        background: TYPE.find((t) => t.name === i).color,
-                        borderColor: TYPE.find((t) => t.name === i).color,
+                        background: type.color,
+                        borderColor: type.color,
+                        padding: '4px 8px',
+                        margin: '2px',
+                        borderRadius: '4px'
                       }}
                     >
-                      {i}
+                      {typeName}
                     </span>
-                  ))
-                : "无"}
+                  ) : null;
+                })
+              ) : (
+                <span>无</span>
+              )}
             </div>
           </div>
         </div>
       </div>
+
       <div>
         <div className="type-conatiner">
           <div style={{ width: "150px", marginRight: "15px" }}>
@@ -103,71 +205,88 @@ function Raid() {
             <Select
               style={{ width: "150px" }}
               showSearch
-              onChange={onChangeC}
+              placeholder="选择宝可梦"
+              value={selectedPokemon}
+              onChange={handlePokemonChange}
               allowClear
+              optionFilterProp="children"
             >
-              {pokemonList.map((i) => (
-                <Select.Option value={i.name}>{i.name}</Select.Option>
+              {pokemonList.map((pokemon) => (
+                <Select.Option key={pokemon.name} value={pokemon.name}>
+                  {pokemon.name}
+                </Select.Option>
               ))}
             </Select>
           </div>
           <div style={{ width: "290px", marginRight: "15px" }}>
             <div>避免属性:</div>
-            {d?.length
-              ? d
-                  .sort((d1, d2) => d2.num - d1.num)
-                  .map((i) => (
+            {avoidTypes.length > 0 ? (
+              avoidTypes
+                .sort((a, b) => b.num - a.num)
+                .map((typeInfo) => {
+                  const type = TYPE.find(t => t.name === typeInfo.name);
+                  const isBest = bestTypes.includes(typeInfo.name);
+                  return type ? (
                     <span
-                      className={`type-item ${
-                        b.includes(i.name) ? "badType" : ""
-                      }`}
+                      key={`avoid-${typeInfo.name}`}
+                      className={`type-item ${isBest ? "badType" : ""}`}
                       style={{
-                        background: TYPE.find((t) => t.name === i.name).color,
-                        borderColor: TYPE.find((t) => t.name === i.name).color,
+                        background: type.color,
+                        borderColor: type.color,
+                        padding: '4px 8px',
+                        margin: '2px',
+                        borderRadius: '4px'
                       }}
                     >
-                      {i.name}-{i.num}
+                      {typeInfo.name}-{typeInfo.num}
                     </span>
-                  ))
-              : "无"}
+                  ) : null;
+                })
+            ) : (
+              <span>无</span>
+            )}
           </div>
           <div style={{ width: "290px" }}>
             <div>推荐属性:</div>
-            {e?.length
-              ? e
-                  .sort((d1, d2) => d2.num - d1.num)
-                  .map((i) => (
+            {recommendTypes.length > 0 ? (
+              recommendTypes
+                .sort((a, b) => b.num - a.num)
+                .map((typeInfo) => {
+                  const type = TYPE.find(t => t.name === typeInfo.name);
+                  const isBest = bestTypes.includes(typeInfo.name);
+                  return type ? (
                     <span
-                      className={`type-item ${
-                        b.includes(i.name) ? "goodType" : ""
-                      }`}
+                      key={`recommend-${typeInfo.name}`}
+                      className={`type-item ${isBest ? "goodType" : ""}`}
                       style={{
-                        background: TYPE.find((t) => t.name === i.name).color,
-                        borderColor: TYPE.find((t) => t.name === i.name).color,
+                        background: type.color,
+                        borderColor: type.color,
+                        padding: '4px 8px',
+                        margin: '2px',
+                        borderRadius: '4px'
                       }}
                     >
-                      {i.name}-{i.num}
+                      {typeInfo.name}-{typeInfo.num}
                     </span>
-                  ))
-              : "无"}
+                  ) : null;
+                })
+            ) : (
+              <span>无</span>
+            )}
           </div>
         </div>
       </div>
 
-      {c ? (
-        <div>注意：{pokemonList.find((i) => i.name === c).special}</div>
-      ) : null}
+      {selectedPokemon && (
+        <div>注意：{pokemonList.find(p => p.name === selectedPokemon)?.special || ''}</div>
+      )}
 
       <Form
-        name="basic"
-        labelCol={{
-          span: 8,
-        }}
-        wrapperCol={{
-          span: 16,
-        }}
+        name="raid-form"
+        labelCol={{ span: 8 }}
+        wrapperCol={{ span: 16 }}
         form={form}
-        onFinish={onFinish}
+        onFinish={handleSubmit}
         autoComplete="off"
         style={{ margin: "10px 0" }}
       >
@@ -175,11 +294,13 @@ function Raid() {
           <Select
             style={{ width: "100px" }}
             showSearch
-            placeholder={"属性"}
+            placeholder="选择属性"
             allowClear
           >
-            {TYPE.map((i) => (
-              <Select.Option value={i.name}>{i.name}</Select.Option>
+            {TYPE.map((type) => (
+              <Select.Option key={type.name} value={type.name}>
+                {type.name}
+              </Select.Option>
             ))}
           </Select>
         </Form.Item>
@@ -187,11 +308,14 @@ function Raid() {
           <Select
             style={{ width: "150px" }}
             showSearch
-            placeholder="怪"
+            placeholder="选择怪"
             allowClear
+            optionFilterProp="children"
           >
-            {pokemonList.map((i) => (
-              <Select.Option value={i.name}>{i.name}</Select.Option>
+            {pokemonList.map((pokemon) => (
+              <Select.Option key={pokemon.name} value={pokemon.name}>
+                {pokemon.name}
+              </Select.Option>
             ))}
           </Select>
         </Form.Item>
@@ -210,14 +334,13 @@ function Raid() {
           {({ getFieldValue }) => {
             const type = getFieldValue("type");
             const name = getFieldValue("name");
-            if (!(type && name)) return;
-            return (
+            return (type && name) ? (
               <Form.Item noStyle>
                 <Button type="primary" htmlType="submit">
                   添加
                 </Button>
               </Form.Item>
-            );
+            ) : null;
           }}
         </Form.Item>
       </Form>
@@ -226,95 +349,44 @@ function Raid() {
       <div
         style={{
           maxHeight: "320px",
-          overflowY: "scroll",
+          overflowY: "auto",
         }}
       >
         {history
-          .filter((i) => {
-            if (a && c) {
-              return i.type === a && i.name === c;
+          .filter((record) => {
+            if (selectedType && selectedPokemon) {
+              return record.type === selectedType && record.name === selectedPokemon;
             }
-            return i.type === a || i.name === c;
+            return record.type === selectedType || record.name === selectedPokemon;
           })
-          .map((i, index) => (
-            <div>
+          .map((record, index) => (
+            <div key={record.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '4px 0' }}>
               <span>
-                {index + 1}:{i.type}
-                --
-                {i.name}
-                --
-                {i?.success ? "成了" : "失败"}
-                --
-                {i?.notice}
+                {index + 1}: {record.type} -- {record.name} -- {record?.success ? "成了" : "失败"} -- {record?.notice || ''}
               </span>
-              <span>
-                <Popconfirm
-                  title="删除?"
-                  okText="是"
-                  cancelText="否"
-                  onConfirm={() => {
-                    onDelConfirm(i.id);
-                  }}
-                >
-                  <Button
-                    type="link"
-                    size="small"
-                    style={{ marginLeft: "8px" }}
-                  >
-                    删除
-                  </Button>
-                </Popconfirm>
-              </span>
+              <Popconfirm
+                title="确定删除?"
+                okText="是"
+                cancelText="否"
+                onConfirm={() => handleDelete(record.id)}
+              >
+                <Button type="link" size="small">
+                  删除
+                </Button>
+              </Popconfirm>
             </div>
           ))}
+        {history.filter((record) => {
+          if (selectedType && selectedPokemon) {
+            return record.type === selectedType && record.name === selectedPokemon;
+          }
+          return record.type === selectedType || record.name === selectedPokemon;
+        }).length === 0 && (
+          <div>暂无匹配记录</div>
+        )}
       </div>
     </div>
   );
-}
-
-function matchA(a) {
-  const list = [];
-
-  if (a) {
-    Object.keys(RESTRAINT).forEach((i) => {
-      Object.keys(RESTRAINT[i]).forEach((j) => {
-        if (RESTRAINT[i][j] > 1 && j === a) {
-          list.push(i);
-        }
-      });
-    });
-  }
-
-  return list;
-}
-
-function matchC(c, bool, pokemonList) {
-  const list = [];
-  if (!c) return [];
-  const g = pokemonList.find((i) => i.name === c).moves;
-
-  g.forEach((i) => {
-    Object.keys(RESTRAINT[i]).forEach((j) => {
-      if (bool ? RESTRAINT[i][j] > 1 : RESTRAINT[i][j] < 1) {
-        list.push(j);
-      }
-    });
-  });
-
-  const l = list.reduce((t, c) => {
-    const v = t.find((tItem) => tItem.name === c);
-    if (v) {
-      v.num += v.num;
-    } else {
-      t.push({
-        name: c,
-        num: 1,
-      });
-    }
-
-    return t;
-  }, []);
-  return l;
 }
 
 export default Raid;
