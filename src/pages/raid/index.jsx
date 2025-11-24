@@ -239,8 +239,13 @@ function Raid() {
           .map((i, index) => (
             <div>
               <span>
-                {index + 1}:{i.type} -- {i.name} --{" "}
-                {i?.success ? "成了" : "失败"} -- {i?.notice}
+                {index + 1}:{i.type}
+                --
+                {i.name}
+                --
+                {i?.success ? "成了" : "失败"}
+                --
+                {i?.notice}
               </span>
               <span>
                 <Popconfirm
