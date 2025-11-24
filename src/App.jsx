@@ -22,7 +22,7 @@ function App() {
           }}
           mode="inline"
           items={items}
-          defaultSelectedKeys={['/raid']}
+          defaultSelectedKeys={["/raid"]}
         />
         <div className="container">
           <Routes>

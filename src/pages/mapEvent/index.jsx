@@ -97,7 +97,7 @@ export default () => {
         {events
           .filter((i) => i.activeKey === activeKey)
           .map((i) => (
-            <EventItem {...i} onDel={onDel}/>
+            <EventItem {...i} onDel={onDel} />
           ))}
       </div>
       <div>

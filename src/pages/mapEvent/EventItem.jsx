@@ -9,7 +9,7 @@ export default (props) => {
     <Tooltip
       title={
         <span>
-          {note}{" "}
+          {note}
           <Button
             size="small"
             type="link"

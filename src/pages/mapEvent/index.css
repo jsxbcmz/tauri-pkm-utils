@@ -1,20 +1,20 @@
-.mapEvent{
+.mapEvent {
   position: relative;
 }
-.mapEventMask{
+.mapEventMask {
   position: absolute;
   height: 680px;
   width: 680px;
   z-index: 10;
 }
-.mapEvent .item{
+.mapEvent .item {
   display: block;
   width: 170px;
   height: 170px;
   float: left;
 }
 
-.eventItem{
+.eventItem {
   position: absolute;
   width: 8px;
   height: 8px;

@@ -223,37 +223,45 @@ function Raid() {
       </Form>
 
       <div>历史记录：</div>
-      <div style={{
-        maxHeight:'320px',
-        overflowY:'scroll',
-      }}>
-      {history
-        .filter((i) => {
-          if (a && c) {
-            return i.type === a && i.name === c;
-          }
-          return i.type === a || i.name === c;
-        })
-        .map((i, index) => (
-          <div>
-            <span>
-              {index + 1}:{i.type} -- {i.name} -- {i?.success ? "成了" : "失败"}{" "}
-              -- {i?.notice}
-            </span>
-            <span>
-              <Popconfirm
-                title="删除?"
-                okText="是"
-                cancelText="否"
-                onConfirm={() => {
-                  onDelConfirm(i.id);
-                }}
-              >
-                <Button type="link" size="small" style={{marginLeft:'8px'}}>删除</Button>
-              </Popconfirm>
-            </span>
-          </div>
-        ))}
+      <div
+        style={{
+          maxHeight: "320px",
+          overflowY: "scroll",
+        }}
+      >
+        {history
+          .filter((i) => {
+            if (a && c) {
+              return i.type === a && i.name === c;
+            }
+            return i.type === a || i.name === c;
+          })
+          .map((i, index) => (
+            <div>
+              <span>
+                {index + 1}:{i.type} -- {i.name} --{" "}
+                {i?.success ? "成了" : "失败"} -- {i?.notice}
+              </span>
+              <span>
+                <Popconfirm
+                  title="删除?"
+                  okText="是"
+                  cancelText="否"
+                  onConfirm={() => {
+                    onDelConfirm(i.id);
+                  }}
+                >
+                  <Button
+                    type="link"
+                    size="small"
+                    style={{ marginLeft: "8px" }}
+                  >
+                    删除
+                  </Button>
+                </Popconfirm>
+              </span>
+            </div>
+          ))}
       </div>
     </div>
   );
