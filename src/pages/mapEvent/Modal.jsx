@@ -24,13 +24,20 @@ export default (props) => {
   const [form] = Form.useForm();
 
   const onOk = () => {
-    onSubmit(form.getFieldsValue());
-    onCancel();
+    form
+      .validateFields()
+      .then(values => {
+        onSubmit(values);
+        onCancel();
+      })
+      .catch(info => {
+        console.log('Validate Failed:', info);
+      });
   };
 
   return (
     <Modal
-      title={"添加"}
+      title={clickItem.id ? "编辑事件" : "添加事件"}
       open
       destroyOnClose
       centered
@@ -38,23 +45,27 @@ export default (props) => {
       onOk={onOk}
     >
       <Form
-        name="basic"
+        name="event-form"
         initialValues={clickItem}
-        labelCol={{
-          span: 4,
-        }}
-        wrapperCol={{
-          span: 18,
-        }}
+        labelCol={{ span: 6 }}
+        wrapperCol={{ span: 16 }}
         form={form}
         autoComplete="off"
         style={{ margin: "10px 0" }}
       >
-        <Form.Item label="类型" name="type" required>
+        <Form.Item 
+          label="类型" 
+          name="type" 
+          rules={[{ required: true, message: '请选择事件类型' }]}
+        >
           <Select options={TYPEMAP} />
         </Form.Item>
-        <Form.Item label="备注" name="note" required>
-          <Input placeholder="备注" />
+        <Form.Item 
+          label="备注" 
+          name="note" 
+          rules={[{ required: true, message: '请输入备注' }]}
+        >
+          <Input placeholder="请输入备注" />
         </Form.Item>
       </Form>
     </Modal>

@@ -1,41 +1,50 @@
-import { Menu } from "antd";
-import { Route, Routes, Link } from "react-router-dom";
+import { Layout, Menu } from "antd";
+import { Route, Routes, Link, useLocation } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import Raid from "@pages/raid";
 import nav from "./nav";
 import "./App.css";
 
-function App() {
-  const items = nav.map((i) => {
-    return {
-      key: i.path,
-      label: <Link to={i.path}>{i.title}</Link>,
-    };
-  });
+const { Sider, Content } = Layout;
+
+function AppContent() {
+  const location = useLocation();
+  const selectedKey = location.pathname || "/raid";
+
+  const menuItems = nav.map((item) => ({
+    key: item.path,
+    label: <Link to={item.path}>{item.title}</Link>,
+  }));
 
   return (
-    <div className="g-flexbox">
-      <BrowserRouter>
+    <Layout style={{ minHeight: '100vh' }}>
+      <Sider width={120} style={{ background: '#fff', paddingTop: '16px' }}>
         <Menu
-          style={{
-            width: 100,
-          }}
           mode="inline"
-          items={items}
-          defaultSelectedKeys={["/raid"]}
+          selectedKeys={[selectedKey]}
+          items={menuItems}
+          style={{ borderRight: 0 }}
         />
-        <div className="container">
+      </Sider>
+      <Layout style={{ backgroundColor: '#fff' }}>
+        <Content style={{ margin: '16px', overflow: 'initial' }}>
           <Routes>
-            {nav.map((i) => {
-              return (
-                <Route key={i.path} path={i.path} element={<i.component />} />
-              );
-            })}
+            {nav.map((item) => (
+              <Route key={item.path} path={item.path} element={<item.component />} />
+            ))}
             <Route key="/" path="/" element={<Raid />} />
           </Routes>
-        </div>
-      </BrowserRouter>
-    </div>
+        </Content>
+      </Layout>
+    </Layout>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppContent />
+    </BrowserRouter>
   );
 }
 
